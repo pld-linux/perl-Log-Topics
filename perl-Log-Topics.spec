@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Log::Topics
 Name:		perl-Log-Topics
 Version:	0.02
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	116ad36f1df4a04afeb65321c229d2b6
