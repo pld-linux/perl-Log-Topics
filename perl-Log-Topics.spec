@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Log
-%define	pnam	Topics
+%define		pdir	Log
+%define		pnam	Topics
 Summary:	Log::Topics perl module
 Summary(pl):	Modu³ perla Log::Topics
 Name:		perl-Log-Topics
