@@ -5,7 +5,7 @@ Summary:	Log::Topics perl module
 Summary(pl):	Modu³ perla Log::Topics
 Name:		perl-Log-Topics
 Version:	0.02
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
