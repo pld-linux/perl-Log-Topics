@@ -25,7 +25,7 @@ Log-Topics kontroluje przep³yw logów.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
