@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Topics
-%include	/usr/lib/rpm/macros.perl
 Summary:	Log-Topics perl module
 Summary(pl):	Modu³ perla Log-Topics
 Name:		perl-Log-Topics
 Version:	0.02
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Log-Topics controls flow of logging messages.
 Log-Topics kontroluje przep³yw logów.
 
 %prep
-%setup -q -n Log-Topics-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
