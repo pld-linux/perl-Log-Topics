@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Topics
-Summary:	Log-Topics perl module
-Summary(pl):	Modu³ perla Log-Topics
+Summary:	Log::Topics perl module
+Summary(pl):	Modu³ perla Log::Topics
 Name:		perl-Log-Topics
 Version:	0.02
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Log-Topics controls flow of logging messages.
+Log::Topics controls flow of logging messages.
 
 %description -l pl
-Log-Topics kontroluje przep³yw logów.
+Log::Topics kontroluje przep³yw logów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
