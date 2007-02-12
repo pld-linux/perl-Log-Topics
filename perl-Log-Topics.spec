@@ -2,7 +2,7 @@
 %define		pdir	Log
 %define		pnam	Topics
 Summary:	Log::Topics perl module
-Summary(pl):	Modu≥ perla Log::Topics
+Summary(pl.UTF-8):   Modu≈Ç perla Log::Topics
 Name:		perl-Log-Topics
 Version:	0.02
 Release:	10
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Log::Topics controls flow of logging messages.
 
-%description -l pl
-Log::Topics kontroluje przep≥yw logÛw.
+%description -l pl.UTF-8
+Log::Topics kontroluje przep≈Çyw log√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
