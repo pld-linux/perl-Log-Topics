@@ -2,7 +2,7 @@
 %define		pdir	Log
 %define		pnam	Topics
 Summary:	Log::Topics perl module
-Summary(pl.UTF-8):   Moduł perla Log::Topics
+Summary(pl.UTF-8):	Moduł perla Log::Topics
 Name:		perl-Log-Topics
 Version:	0.02
 Release:	10
