@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Log
 %define		pnam	Topics
+%include	/usr/lib/rpm/macros.perl
 Summary:	Log::Topics perl module
 Summary(pl.UTF-8):	Moduł perla Log::Topics
 Name:		perl-Log-Topics
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	116ad36f1df4a04afeb65321c229d2b6
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Log-Topics/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
